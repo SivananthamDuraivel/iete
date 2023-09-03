@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>workshop</title>
+  <link rel="shortcut icon" href="logo-beg.png" type="image/x-icon">
+  <meta http-equiv="refresh" content="3000; URL=login.php" />
+  
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+    
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background : linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)),url('/assets/img/eventpage.jpg');
+  background-repeat: none;
+  background-size: cover;
+  margin: 0;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+
+}
+
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+  color: white;
+}
+h2 {
+    color: white;
+}
+
+.card{
+  
+    transition: transform .5s;
+    background-color: aliceblue;
+    border: 1px solid lightgray;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.card:hover{
+    background-color: bisque;
+    border: 1px solid bisque;
+    width: 300px;
+    transform: scale(1.08);
+}
+.desc{
+    font-size: 14px;
+    
+}
+.card-img{
+  
+    height:300px;
+    width:278px;
+    border-radius: 6px;
+    justify-content: center;
+    border: 1px solid black;
+
+}
+.card button {
+  height: 40px;
+  width: 280px;
+  margin: auto;
+  color: white;
+  background-color: #000000;
+  border: none;
+  cursor: pointer;
+  
+}
+.layout{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.u {
+  color: red;
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+header{
+  height: 3em;
+    font-size: 1.2em;
+    display: flex;
+    padding: 1em;
+    background-color: rgba(139, 138, 136, 0.132);
+    
+}
+#logo{
+    flex: 3;
+    font-size: 1.25em;
+    padding-left: 1em;
+}
+nav{
+  
+    flex:1;
+    display: flex;
+}
+nav a{
+    padding-right: .5em;
+    flex:.5;
+}
+#b{
+        font-family: 'Black Ops One', cursive;
+        font-size: 1em;
+        margin-top: -10px;
+    }
+    #page{
+      margin-top: 5px;
+    font-family: 'Black Ops One';
+    color: whitesmoke;
+  }
+
+
+</style>
+
+</head>
+<body>
+    <header>
+        <a href="events.html" id="logo"><p id="b">BACK</p></a>
+        <!-- <nav>
+            <a href="page1.html">AGENDA</a>
+            <a href="contact.html">CONTACT</a>
+        </nav> -->
+    </header>
+    <center><h2 id="page">WORKSHOPS</h2></center>
+<div class="main">
+<div class="layout">
+  <div class="card">
+      <img src="/assets/img/ethical.jpg" class="card-img" alt="">
+      <h3>ETHICAL HACKING</h3><hr>
+      <p class="desc">Learn to identify and fix security threats
+         breaching the company's security system
+         Register and Pay before 15 september, 2023 to get free pass and Rs. 50 off.
+      </p><hr>
+      <!-- <a href = "reg.html"><button>REGISTER!</button></a> -->
+  </div>
+  <div class="card">
+      <img src="/assets/img/Automoblie.jpg" class="card-img" alt="">
+      <h3>AUTOMOBILE</h3><hr>
+      <p class="desc">Learn about the automobile design and the growing electric vehicles industry.
+        Register and Pay before 15 september, 2023 to get free pass and Rs. 50 off.
+      </p>
+        <!-- <a href = "reg.html"><button>REGISTER!</button></a> -->
+  </div>
+  <div class="card">
+      <img src="/assets/img/audrino.jpg" class="card-img" alt="">
+      <h3>ARDUINO PROJECTS</h3><hr>
+      <p class="desc">Arduino is an open-source platform used for building electronics projects...
+        Register and Pay before 15 september, 2023 to get free pass and Rs. 50 off.
+      </p>
+        <!-- <a href = "reg.html"><button>REGISTER!</button></a> -->
+  </div>
+</div>
+</div>
+</div>
+</body>
+</html>

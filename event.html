@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>events</title>
+  
+  
+  
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<style>
+* {
+  box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+body {
+  background : linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)),url('/assets/img/eventpage.jpg');
+  background-repeat: none;
+  background-size: cover;
+  margin: 0;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+
+}
+
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+  color: white;
+}
+h2 {
+    color: white;
+}
+
+.card{
+  
+    transition: transform .5s;
+    background-color: aliceblue;
+    border: 1px solid lightgray;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.card:hover{
+    background-color: bisque;
+    border: 1px solid bisque;
+    width: 300px;
+    transform: scale(1.08);
+}
+.desc{
+    font-size: 14px;
+    
+}
+.card-img{
+  
+    height:300px;
+    width:278px;
+    border-radius: 6px;
+    justify-content: center;
+    border: 1px solid black;
+
+}
+.card button {
+  height: 40px;
+  width: 280px;
+  margin: auto;
+  color: white;
+  background-color: #000000;
+  border: none;
+  cursor: pointer;
+  
+}
+.layout{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.u {
+  color: red;
+}
+header a{
+  
+    font-family: 'Black Ops One';
+    text-decoration: none;
+    color: white;
+}
+header{
+ 
+    font-family: 'Black Ops One';
+    font-size: 1.2em;
+    display: flex;
+    padding: 1em;
+    background-color: rgba(139, 138, 136, 0.132);
+    
+}
+#logo{
+    flex: 3;
+    font-size: 1.25em;
+    padding-left: 1em;
+}
+nav{
+    flex:1;
+    display: flex;
+}
+nav a{
+    padding-right: .5em;
+    flex:.5;
+}
+b{
+        font-family: 'Black Ops One';
+        font-size: .9em;
+        margin-top: -10px;
+        color: grey;
+    }
+    #page{
+    font-family: 'Black Ops One';
+    color: whitesmoke;
+  }
+
+
+</style>
+
+</head>
+<body>
+    <header>
+        <a href="events.html" id="logo"><b style="font-family: 'Black Ops One', cursive;">BACK</b></a>
+        <!-- <nav>
+            <a href="page1.html">AGENDA</a>
+            <a href="contact.html">CONTACT</a>
+        </nav> -->
+    </header>
+    <center><h3 id="page">EVENTS</h3></center>
+<div class="main">
+<div class="layout">
+  <div class="card">
+      <img src="/assets/img/ctf.jpg" class="card-img" alt="">
+      <h3>CTF</h3><hr>
+      <p class="desc">Let your technical skills break into the system 
+        to capture the flags stored using various commands and methods based on Linux OS.
+      </p><hr>
+      <!-- <a href = "reg.html"><button>REGISTER!</button></a> -->
+  </div>
+  <div class="card">
+      <img src="/assets/img/ui.jpg" class="card-img" alt="">
+      <h3>UI/UX DESIGN</h3><hr>
+      <p class="desc">Can you present the best design for the given topic? Try it out..
+        Participants will be given a week time. Participants can choose any platform for designing.</p>
+        <!-- <a href = "reg.html"><button>REGISTER!</button></a> -->
+  </div>
+  <div class="card">
+      <img src="/assets/img/robot.png" class="card-img" alt="">
+      <h3>BOTAMATA</h3><hr>
+      <p class="desc">Hey bots, do you think you can conquer the world? Let's see
+
+        This event includes a hands-on workshop where you will learn all the necessary 
+        skills to participate in the contest.</p>
+        <!-- <a href = "reg.html"><button>REGISTER!</button></a> -->
+  </div>
+</div>
+</div>
+</div>
+</body>
+</html>
