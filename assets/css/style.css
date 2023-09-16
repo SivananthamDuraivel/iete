@@ -145,7 +145,7 @@ h6 {
     bottom: 0;
     z-index: 9999;
     overflow: hidden;
-    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url('../assets/img/loading.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url('../img/loading.jpg');
     background-size: cover;
     background-position:fixed;
     height: 100vh;
@@ -620,7 +620,7 @@ h6 {
     width: 100%;
     min-height: 100vh;
     height: max-content;
-    background: linear-gradient(rgba(0, 17, 255, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/img/students.jpeg");
+    background: linear-gradient(rgba(0, 17, 255, 0.3), rgba(0, 0, 0, 0.3)), url("../img/students.jpeg");
     background-size: cover;
     background-position: center;
     position: relative;
@@ -1921,7 +1921,7 @@ nav a:active{
 }
 #newfoot{
     border-radius: 30px;
-    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,.5)),url('/assets/img/OIP.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,.5)),url('../img/OIP.jpg');
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
